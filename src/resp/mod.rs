@@ -8,6 +8,7 @@ use std::{
     ops::{Deref, DerefMut},
 };
 
+use anyhow::Result;
 use thiserror::Error;
 
 #[enum_dispatch]
